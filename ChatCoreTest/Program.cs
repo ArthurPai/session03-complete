@@ -16,8 +16,9 @@ namespace ChatCoreTest
       Write(109);
       Write(109.99f);
       Write("Hello!");
+      Write("Hello!Again!");
 
-      Console.Write($"Output Byte array(length:{m_Pos}): ");
+            Console.Write($"Output Byte array(length:{m_Pos}): ");
       for (var i = 0; i < m_Pos; i++)
       {
         Console.Write(m_PacketData[i] + ", ");
